@@ -24,7 +24,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://assignment-rust-alpha.vercel.app/products";
+            const url = "https://assignment-seven-orcin.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
