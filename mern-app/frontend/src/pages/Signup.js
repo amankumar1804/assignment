@@ -31,7 +31,7 @@ function Signup() {
         }
 
         try {
-            const url = `https://assignment-rust-alpha.vercel.app/auth/signup`;
+            const url = `https://assignment-seven-orcin.vercel.app/auth/signup`;
             
             const response = await fetch(url, {
                 method: "POST",
